@@ -1,0 +1,33 @@
+@use './components/appHeader';
+@use './components/appFooter';
+@use './components/airbnbComponents';
+@use './components/modal';
+@use './components/place_to_stay';
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Rose';
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-color: #ffffff;
+}
+.App{
+  width: 100vw;
+  overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}

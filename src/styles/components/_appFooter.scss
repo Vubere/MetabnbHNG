@@ -1,0 +1,57 @@
+
+footer.appFooter{
+  display: flex;
+  padding-top: 63px;
+  background-color: #1d1d1e;
+  justify-content: space-around;
+  align-content: center;
+  width: 100vw;
+  height: 322px;
+  max-width: 1440px;
+  .main{
+    height: 100%;
+    display: grid;
+    align-content: space-between;
+    .icon{
+      display: flex;
+      align-items: flex-end;
+    }
+    .socials{
+      width: 115px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .copyright{
+        font-size: 16px;
+        font-weight: 400;
+        color: #f7f7f7;
+        margin-bottom: 37px;
+        color: #f1f3f9;
+    }
+  }
+  .guides{
+    display: flex;
+    justify-content: space-between;
+    width: 698px;
+    height: 169px;
+    gap: 217px;
+    color: #f1f3f9;
+    h4{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22.48px;
+      height: 22px;
+      color: #ffffff;
+    }
+    ul{
+      width: 100%;
+      li{
+        list-style-type: none;
+        width: 95px;
+        font-weight: 400;
+        size: 14px;
+        line-height: 35px;
+      }
+    }
+  }
+}

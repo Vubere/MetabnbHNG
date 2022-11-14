@@ -1,0 +1,63 @@
+
+
+section.ntfHint{
+  width: 100vw;
+  max-width: 1440px;
+  position: relative;
+  height: 774px;
+  background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  .main{
+    max-width: 415px;
+    width: 28.82%;
+    position: absolute;
+    left: 6.94%;
+    top: 24.03%;
+    h2{
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      color: white;
+      text-align: start;
+      max-width: 346px;
+      width: 100%;
+    }
+    p{
+      color: white;
+      width: 100%;
+      font-weight: 400;
+      line-height: 35px;
+      font-size: 18px;
+      background-clip: text;
+    }
+    a{
+      width: 156px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      margin-top: 57px;
+      justify-content: center;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 8px;
+      background-image: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+      color: #A02279;
+      text-decoration: none;
+    }
+  }
+  .images{
+    width: 48%;
+    height: 574.85px;
+    position: absolute;
+    right: 6.875%;
+    top: 12.92%;
+    img{
+      width: 100%;
+      position: absolute;
+    }
+  }
+}

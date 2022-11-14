@@ -1,0 +1,46 @@
+.ptsNav{
+  width: 100vw;
+  max-width: 1240px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 120px;
+  ul{
+    width: 950px;
+    height: 23px;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 66px;
+    li{
+      font-weight: 400;
+      font-family: 'Red Rose';
+      font-size: 20px;
+      height: 25px;
+      list-style-type: none;
+      line-height: 25px;
+      color: #434343;
+    }
+  }
+  .filter{
+    border: 1px solid #b4b4b4;
+    border-radius: 8px;
+    width: 161px;
+    border-radius: 8px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p{
+      font-weight: 400;
+      size: 16px;
+    }
+    .filterImg{
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
