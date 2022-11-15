@@ -42,6 +42,14 @@ div.modal{
         height: 24px;
         cursor: pointer;
       }
+      @media screen and (max-width:600px) {
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 3px;
+        h2{
+          justify-content: center;
+        }
+      }
     }
     main.modalMain{
       width: 100%;
@@ -51,6 +59,9 @@ div.modal{
       align-items: flex-start;
       padding: 32px;
       gap: 16px;
+      @media screen and (max-width: 600px) {
+        padding: 7px;
+      }
       p{
         font-weight: 400;
         margin-bottom: 4px;
