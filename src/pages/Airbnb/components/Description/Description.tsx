@@ -4,16 +4,13 @@ import image3 from './assets/image_3.png'
 import image4 from './assets/image_4.png'
 import image5 from './assets/image_5.png'
 import image6 from './assets/image_6.png'
+
 import SearchInput from './SearchInput'
 
-import Form from './SearchInput'
+
 
 
 export default function Description(){
-
- 
-
-
   return (
     <article className="landing">
       <div className="main">

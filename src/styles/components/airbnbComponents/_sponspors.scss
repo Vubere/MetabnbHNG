@@ -16,22 +16,36 @@ section.sponsors{
     align-items: center;
     p{
       font-family: 'Poppins';
+      font-size: 40px;
     }
     &.mbtoken p{
       font-weight: 700;
-      font-size: 40px;
       line-height: 27.28px;
       
     }
     
     &.metamask p{
       font-weight: 500;
-      font-size: 40px;
       line-height: 27.28px;
     }
-    &.opensea{
+    &.opensea p{
       font-weight: 700;
-      font-size: 40px;
     }
+    @media screen and (max-width: 875px) {
+     & p{
+      font-size: 30px;
+      @media screen and (max-width: 685px) {
+        font-size: 25px;
+      }
+    } 
+    @media screen and (max-width: 561px) {
+      & img{
+        width: 24px;
+      }
+      & p{
+        font-size: 13px;
+      }
+    }
+  }
   }
 }

@@ -1,10 +1,21 @@
-
+.placeToStay{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .showCaseContainer{
-  width: 1240px;
+  margin: auto;
+  max-width: 1240px;
+  width: 86.11%;
   margin-top: 70px;
   padding: 0;
   margin-bottom: 92px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  .flex{
+    width: 110%;
+    max-width: 1240px;
+  }
 }

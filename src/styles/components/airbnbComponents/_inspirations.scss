@@ -1,4 +1,4 @@
-section.inspiration{
+section.inspiration {
   width: 100vw;
   max-width: 1440px;
   margin-top: 19px;
@@ -7,7 +7,7 @@ section.inspiration{
   display: flex;
   flex-direction: column;
   align-items: center;
-  h2{
+  h2 {
     font-weight: 700;
     font-size: 48px;
     line-height: 59.95px;
@@ -15,61 +15,51 @@ section.inspiration{
     text-align: center;
   }
 }
-.flex{
+.flex {
   display: flex;
   max-width: 1240px;
   width: 86.11%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
-  .ntfContainer{
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .ntfContainer {
     width: 292px;
     height: 372px;
     padding: 16px;
     margin: 7px;
     box-shadow: 1px 1px #3333, -1px -1px #3333;
     border-radius: 15px;
-    .img{
-      max-width: 98%;
+    .img {
       width: 260px;
       height: 265px;
       border-radius: 15px;
     }
-    .footer{
+    .footer {
       width: 263px;
       display: flex;
       justify-content: space-around;
-      p{
+      p {
         font-weight: 400px;
         font-size: 12px;
         line-height: 13px;
-        max-width: 50%;
         margin: 10px;
       }
-      .left{
+      .left {
         text-align: left;
-        p.distance{
+        p.distance {
           width: 100px;
-          max-width: 50%;
         }
       }
-      .right{
+      .right {
         text-align: right;
-        .cost{
+        .cost {
           font-weight: 700;
-          max-width: 50%;
         }
-        .availability{
+        .availability {
           width: 150px;
-          max-width: 50%;
         }
       }
     }
   }
-  
 }
