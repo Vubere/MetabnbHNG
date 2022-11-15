@@ -5,6 +5,7 @@ footer.appFooter{
   background-color: #1d1d1e;
   justify-content: space-around;
   align-content: center;
+  flex-direction: row-reverse;
   width: 100vw;
   height: 322px;
   max-width: 1440px;
@@ -15,9 +16,11 @@ footer.appFooter{
     .icon{
       display: flex;
       align-items: flex-end;
+      max-width: 90%;
     }
     .socials{
       width: 115px;
+      max-width: 90%;
       display: flex;
       justify-content: space-between;
     }
@@ -32,9 +35,10 @@ footer.appFooter{
   .guides{
     display: flex;
     justify-content: space-between;
-    width: 698px;
+    max-width: 698px;
+    width: 48.47%;
     height: 169px;
-    gap: 217px;
+    gap: 15.07%;
     color: #f1f3f9;
     h4{
       font-weight: 700;
@@ -51,6 +55,30 @@ footer.appFooter{
         font-weight: 400;
         size: 14px;
         line-height: 35px;
+      }
+    }
+  }
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+    height: 380px;
+    .main{
+      width: 90%;
+      padding-left: 10px;
+      .icon{
+        margin: 15px;
+      }
+      .socials{
+        margin: 15px;
+      }
+      .copyright{
+        margin: 5px;
+      }
+    }
+    .guides{
+      width: 95%;
+      margin: 0 auto;
+      @media screen and (max-width: 386px) {
+        gap: 2%;
       }
     }
   }

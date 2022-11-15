@@ -8,7 +8,9 @@ div.modal{
   display: grid;
   place-items: center;
   .modalContainer{
-    width: 600px;
+    max-width: 600px;
+    min-width: 250px;
+    width: 41.6%;
     height: 326px;
     background-color: #fff;
     border-radius: 16px;
@@ -51,6 +53,7 @@ div.modal{
       gap: 16px;
       p{
         font-weight: 400;
+        margin-bottom: 4px;
         font-size: 16px;
         height: 20px;
         line-height: 20px;

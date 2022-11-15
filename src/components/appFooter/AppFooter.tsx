@@ -11,20 +11,6 @@ import twitter from './assets/twitterIcon.png'
 export default function AppFooter() {
   return (
     <footer className='appFooter'>
-      <section className="main">
-        <div className="icon">
-          <img src={home} alt="home" />
-          <img src={metabnb} alt="home" />
-        </div>
-        <div className="socials">
-          <img src={fb} alt="facebook" />
-          <img src={insta} alt="facebook" />
-          <img src={twitter} alt="facebook" />
-        </div>
-        <div className="copyright">
-          &#169; 2022 Metabnb
-        </div>
-      </section>
       <section className="guides">
         <section className="communtiy">
           <h4>Community</h4>
@@ -53,6 +39,20 @@ export default function AppFooter() {
             <li>Contact us</li>
           </ul>
         </section>
+      </section>
+      <section className="main">
+        <div className="icon">
+          <img src={home} alt="home" />
+          <img src={metabnb} alt="home" />
+        </div>
+        <div className="socials">
+          <img src={fb} alt="facebook" />
+          <img src={insta} alt="facebook" />
+          <img src={twitter} alt="facebook" />
+        </div>
+        <div className="copyright">
+          &#169; 2022 Metabnb
+        </div>
       </section>
     </footer>
   )
