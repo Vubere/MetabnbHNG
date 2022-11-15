@@ -18,7 +18,7 @@ section.inspiration {
 .flex {
   display: flex;
   max-width: 1240px;
-  width: 99%;
+  width: 100%;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -27,7 +27,7 @@ section.inspiration {
     width: 292px;
     height: 372px;
     padding: 16px;
-    margin: 7px;
+    margin: 0.56%;
     box-shadow: 1px 1px #3333, -1px -1px #3333;
     border-radius: 15px;
     .img {
